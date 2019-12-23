@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact</title>
+</head>
+
+<body>
+  <h1>Contact</h1>
+  <ul>
+    <li><a href="mailto:hansycling@gmail.com?subject=feedback">email me</a></li>
+    <li><a href="https://www.facebook.com/hans.ling.5" target="_blank">Facebook</a></li>
+    <li>Instagram: hans.ling1989</li>
+  </ul>
+  <form class="" action="index.html" method="post">
+    <label>Your Name:</label>
+    <input type="text" name="" value="">
+    <input type="color" name="" value="">
+    <br>
+    <label> Do you want to sign up?</label>
+    <input type="checkbox" name="" value="">
+    <br>
+    <label>Your password:</label>
+    <input type="password" name="" value="">
+    <input type="submit" name="">
+    <!--其他類型的input-->
+    <input type="date">
+    <input type="radio">
+    <input type="range">
+    <input type="file">
+  </form>
+  <hr>
+  <form class="" action="mailto:hansycling@gmail.com" method="post" enctype="text/plain">
+    <!--當按下下面的submit後所執行的action就會把下方所填內容用郵件方式寄到指定信箱-->
+    <label for="">Your Name:</label>
+    <input type="text" name="yourName"> <br><br>
+    <label for="">Your mail:</label>
+    <input type="email" name="yourEmail"><br><br>
+    <label for="">Your message:</label><br><br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+    <input type="submit" name="">
+    <!--name屬性的名字分類，將資料傳到後端對應的資料庫-->
+  </form>
+</body>
+
+</html>
